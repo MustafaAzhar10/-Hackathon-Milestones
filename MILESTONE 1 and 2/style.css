@@ -1,0 +1,86 @@
+body { 
+    font-family: 'Arial', sans-serif;
+    background-color: #E4E0E1; /* Light background */
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: #493628; /* Darker background */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(249, 249, 249);
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #D6C0B3; /* Medium color */
+    color: black;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #000000;
+}
+
+.profile-picture {
+    width: 100px; /* Adjusted size for better visibility */
+    height: 100px; /* Adjusted size for better visibility */
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #000000; /* Adjusted border size */
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #050505; /* Light color */
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3, h2 {
+    font-size: 22px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #ffffff; /* Light color */
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000000; /* Shadow to match the theme */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: round;
+    padding: 10;
+    margin: 10px 0;
+    color: #AB886D; /* Light color */
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    background-color: #D6C0B3; /* Button color */
+    color: #493628; /* Button text color */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ffc395; /* Hover color */
+}
+
